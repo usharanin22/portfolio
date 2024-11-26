@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-color: #f4f4f9;
+    color: #e6f1f7;
+    background-image: url('black.webp');
+}
+header {
+    background: #090e0f00;
+    color: white;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+header h1 {
+
+    margin: 0;
+}
+nav {
+    margin-top: 5px;
+}
+nav a {
+    color: white;
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+section {
+    padding: 1.5rem 8%;
+}
+.skills, .projects, .internships, .extracurricular, .contact {
+    margin-bottom: 1rem;
+}
+.contact-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.contact-icons a {
+    text-decoration: none;
+    color: #dfe6eb7b;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact-icons img {
+    width: 24px;
+    height: 24px;
+}
+.section-title {
+    margin-bottom: 1rem;
+    font-size: 24px;
+    border-bottom: 2px solid #63d0ff;
+    display: inline-block;
+}
+ul {
+    list-style-type: square;
+    padding-left: 15px;
+    margin: 0.5rem 0;
+}
